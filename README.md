@@ -16,6 +16,9 @@ To run this program, you will need:
 * Python 3.x
 * A CSV file containing sandwich ingredients
 
+### CSV Specifications
+The ```ingredients.csv``` file used by the program requires four columns with specific headers: "Cheeses", "Meats", "Vegetables", and "Condiments". These columns should contain a list of ingredients for each category, with each ingredient listed on a separate row. The program will read this file to generate a random sandwich containing a maximum of two cheeses, two meats, two vegetables, and one condiment. It is important to note that the headers must be spelled and capitalized exactly as shown, and the columns must be in the order specified for the program to work correctly. Additionally, each ingredient should only be listed once in the file, as the program will automatically filter out any duplicates.
+
 ## Installation
 
 1. Clone the repository:
@@ -37,4 +40,3 @@ Run ```main.py```:
 ```
 python3 main.py
 ```
-
