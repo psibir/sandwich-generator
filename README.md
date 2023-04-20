@@ -25,7 +25,12 @@ git clone https://github.com/psibir/sandwich-generator.git
 cd sandwich-generator
 ```
 
-3. Run ```main.py```:
+3. Place your CSV file in the project directory and name it ```ingredients.csv```.
+
+
+## Usage
+
+Run ```main.py```:
 ```
 python3 main.py
 ```
