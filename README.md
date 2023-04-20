@@ -10,8 +10,8 @@ This program could be used by restaurants or cafes to generate unique sandwich r
 ## Prerequisites
 To run this program, you will need:
 
-  . Python 3.x
-  . A CSV file containing sandwich ingredients
+* Python 3.x
+* A CSV file containing sandwich ingredients
 
 ## Installation
 
