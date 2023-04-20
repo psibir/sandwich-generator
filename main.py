@@ -45,13 +45,13 @@ class Sandwich:
             condiments = [row[3] for row in ingredients if row[3] not in self.condiments]
 
         # Randomly select two cheeses or one cheese
-        if random.choice([True, False]):
-            max_cheeses = 2
-        else:
-            max_cheeses = 1
+        max_cheeses = 2 if random.choice([True, False]) else 1
+
+        # Randomly select two meats or one meat
+        max_meats = 2 if random.choice([True, False]) else 1
 
         self._add_items_to_sandwich(cheeses, self.add_cheese, max_cheeses)
-        self._add_items_to_sandwich(meats, self.add_meat, 2)
+        self._add_items_to_sandwich(meats, self.add_meat, max_meats)
         self._add_items_to_sandwich(vegetables, self.add_vegetable, 2)
         self._add_items_to_sandwich(condiments, self.add_condiment, 1)
 
