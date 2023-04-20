@@ -1,7 +1,7 @@
 # sandwich-generator
 A sandwich generator
 
-!(https://github.com/psibir/demonstrations/blob/main/sandwich-generator%20demo.gif?raw=true)
+![](https://github.com/psibir/demonstrations/blob/main/sandwich-generator%20demo.gif?raw=true)
 
 
 ## Description
