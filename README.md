@@ -1,6 +1,9 @@
 # sandwich-generator
 A sandwich generator
 
+!(https://github.com/psibir/demonstrations/blob/main/sandwich-generator%20demo.gif?raw=true)
+
+
 ## Description
 This is a Python program that generates a sandwich recipe by randomly selecting ingredients from a CSV file. The program ensures that only a specific number of each ingredient type can be added to the sandwich.
 
